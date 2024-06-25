@@ -136,4 +136,4 @@ Os dados de livros, patronos e empréstimos são salvos em um arquivo JSON para 
 
 - Felipe Reis Corerato, 14569800
 - Sofia Hahn de Pasquali, 14607722
-- Vitor Marçal Brasil
+- Vitor Marçal Brasil, 12822653

@@ -1,0 +1,276 @@
+{
+  "books": [
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "1122334455",
+      "category": "Programming",
+      "isAvailable": true
+    },
+    {
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "isbn": "3344556677",
+      "category": "Software Engineering",
+      "isAvailable": true
+    },
+    {
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "isbn": "2233445566",
+      "category": "Software Engineering",
+      "isAvailable": true
+    },
+    {
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "isbn": "9988776655",
+      "category": "Programming",
+      "isAvailable": true
+    },
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "isbn": "8877665544",
+      "category": "Programming",
+      "isAvailable": true
+    },
+    {
+      "title": "Java Concurrency in Practice",
+      "author": "Brian Goetz",
+      "isbn": "7766554433",
+      "category": "Programming",
+      "isAvailable": true
+    },
+    {
+      "title": "Test Driven Development",
+      "author": "Kent Beck",
+      "isbn": "5544332211",
+      "category": "Software Engineering",
+      "isAvailable": true
+    },
+    {
+      "title": "Programming Pearls",
+      "author": "Jon Bentley",
+      "isbn": "4433221100",
+      "category": "Programming",
+      "isAvailable": true
+    },
+    {
+      "title": "Algorithms",
+      "author": "Robert Sedgewick",
+      "isbn": "3322110099",
+      "category": "Computer Science",
+      "isAvailable": true
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "isbn": "2211009988",
+      "category": "Computer Science",
+      "isAvailable": true
+    },
+    {
+      "title": "The Mythical Man-Month",
+      "author": "Frederick P. Brooks Jr.",
+      "isbn": "1100998877",
+      "category": "Software Engineering",
+      "isAvailable": true
+    },
+    {
+      "title": "You Don\u0027t Know JS",
+      "author": "Kyle Simpson",
+      "isbn": "0099887766",
+      "category": "Programming",
+      "isAvailable": true
+    }
+  ],
+  "patrons": [
+    {
+      "name": "Alice",
+      "contactInfo": "alice@example.com"
+    },
+    {
+      "name": "Bob",
+      "contactInfo": "bob@example.com"
+    },
+    {
+      "name": "Charlie",
+      "contactInfo": "charlie@example.com"
+    },
+    {
+      "name": "David",
+      "contactInfo": "david@example.com"
+    },
+    {
+      "name": "Eve",
+      "contactInfo": "eve@example.com"
+    },
+    {
+      "name": "Frank",
+      "contactInfo": "frank@example.com"
+    },
+    {
+      "name": "Grace",
+      "contactInfo": "grace@example.com"
+    },
+    {
+      "name": "Heidi",
+      "contactInfo": "heidi@example.com"
+    },
+    {
+      "name": "Ivan",
+      "contactInfo": "ivan@example.com"
+    },
+    {
+      "name": "Judy",
+      "contactInfo": "judy@example.com"
+    },
+    {
+      "name": "Mallory",
+      "contactInfo": "mallory@example.com"
+    },
+    {
+      "name": "Niaj",
+      "contactInfo": "niaj@example.com"
+    },
+    {
+      "name": "Olivia",
+      "contactInfo": "olivia@example.com"
+    },
+    {
+      "name": "Peggy",
+      "contactInfo": "peggy@example.com"
+    },
+    {
+      "name": "Rupert",
+      "contactInfo": "rupert@example.com"
+    },
+    {
+      "name": "Sybil",
+      "contactInfo": "sybil@example.com"
+    },
+    {
+      "name": "Trent",
+      "contactInfo": "trent@example.com"
+    },
+    {
+      "name": "Uma",
+      "contactInfo": "uma@example.com"
+    },
+    {
+      "name": "Victor",
+      "contactInfo": "victor@example.com"
+    },
+    {
+      "name": "Wendy",
+      "contactInfo": "wendy@example.com"
+    },
+    {
+      "name": "Xander",
+      "contactInfo": "xander@example.com"
+    },
+    {
+      "name": "felipe",
+      "contactInfo": "felipe"
+    }
+  ],
+  "loans": [
+    {
+      "book": {
+        "title": "Java Programming",
+        "author": "John Doe",
+        "isbn": "1234567890",
+        "category": "Programming",
+        "isAvailable": true
+      },
+      "patron": {
+        "name": "Alice",
+        "contactInfo": "alice@example.com"
+      },
+      "loanDate": "2023-06-01",
+      "dueDate": "2023-06-15",
+      "isReturned": false
+    },
+    {
+      "book": {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "isbn": "0987654321",
+        "category": "Programming",
+        "isAvailable": true
+      },
+      "patron": {
+        "name": "Bob",
+        "contactInfo": "bob@example.com"
+      },
+      "loanDate": "2023-06-06",
+      "dueDate": "2023-06-20",
+      "isReturned": false
+    },
+    {
+      "book": {
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "isbn": "1122334455",
+        "category": "Programming",
+        "isAvailable": true
+      },
+      "patron": {
+        "name": "Charlie",
+        "contactInfo": "charlie@example.com"
+      },
+      "loanDate": "2023-06-11",
+      "dueDate": "2023-06-25",
+      "isReturned": false
+    },
+    {
+      "book": {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "isbn": "0987654321",
+        "category": "Programming",
+        "isAvailable": false
+      },
+      "patron": {
+        "name": "Bob",
+        "contactInfo": "bob@example.com"
+      },
+      "loanDate": "2024-06-24",
+      "dueDate": "2024-07-08",
+      "isReturned": false
+    },
+    {
+      "book": {
+        "title": "Java Programming",
+        "author": "John Doe",
+        "isbn": "1234567890",
+        "category": "Programming",
+        "isAvailable": true
+      },
+      "patron": {
+        "name": "Alice",
+        "contactInfo": "alice@example.com"
+      },
+      "loanDate": "2024-06-24",
+      "dueDate": "2024-07-08",
+      "isReturned": true
+    },
+    {
+      "book": {
+        "title": "Java Programming",
+        "author": "John Doe",
+        "isbn": "1234567890",
+        "category": "Programming",
+        "isAvailable": false
+      },
+      "patron": {
+        "name": "Alice",
+        "contactInfo": "alice@example.com"
+      },
+      "loanDate": "2024-06-24",
+      "dueDate": "2024-07-08",
+      "isReturned": false
+    }
+  ]
+}

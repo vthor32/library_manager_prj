@@ -2,9 +2,9 @@
 
 ## Review Group:
 
-- Sofia Hahn de Pasquali - 14607722
-- Felipe Reis Corerato - 
-- Vitor Marçal Brasil - 
+- Felipe Reis Corerato, 14569800
+- Sofia Hahn de Pasquali, 14607722
+- Vitor Marçal Brasil, 12822653
 
 ## Group Being Revised:
 
